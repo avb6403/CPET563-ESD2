@@ -40,7 +40,7 @@ xlabel("disparity [pixels]");
 ylabel("depth [m]");
 xlim([0 300]);
 title("Depth with shifts vs Disparity");
-saveas(Fig, append('depth_vs_disparity.png'));
+saveas(Fig, append('depth_vs_disparity.bmp'));
 %% 
 % Subplots
 
@@ -79,4 +79,4 @@ xlim([0 xNumPix])
 ylim([0 yNumPix])
 title('Right Camera')
 
-saveas(Fig, append('depth_vs_disparity_subplots.png'));
+saveas(Fig, append('depth_vs_disparity_subplots.bmp'));
